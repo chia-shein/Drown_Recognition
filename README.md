@@ -96,6 +96,16 @@ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 cd ../../../
 pip3 install -r requirements.txt
 ```
+## 2.6 Final Check~
+
+Test on video:
+```
+python src/s5_test.py \
+    --model_path model/trained_classifier.pickle \
+    --data_type video \
+    --data_path data_test/exercise.avi \
+    --output_folder output
+```
 # NOW TRAINING!
 
 # Reference:
