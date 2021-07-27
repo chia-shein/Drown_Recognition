@@ -14,6 +14,8 @@ Only for national Chin-Yi University of technology
 1. Cuda compilation tools, release 10.0, V10.0.130
 2. Cudnn : 7.4.2
 3. Python : 3.6.12
+4. tensorflow-gpu: 1.15.0 
+5. keras : 2.3.1
 
 Check Cuda Version:
 ```bash
@@ -30,18 +32,31 @@ Make sure already install Anaconda.
 
 **if not:**
 
-1. Download the {}.sh file.
+1. Download the {}.sh file. [here](https://www.anaconda.com/products/individual)
 2. Install Anaconda: 
 ```bash
-bash./{filename.sh}
+bash ./{filename.sh}
 ```
 **Completed install Anacconda:**
 
-Create new environment and activate:
-```
+1. Create new environment and activate:
+```bash
 conda create -n {env_name} python=3.6.12
-conda activate env_name
+conda activate {env_name}
 ```
+
+## 1.3 Install Tensorflow GPU version
+1. Install tensorflow-gpu 1.15.0 version(make sure your tensorflow-gpu version is fit to your cuda version)
+```bash
+pip3 install tensorflow-gpu==1.15.0
+```
+2. Check if your tensorflow-gpu completed install or not.
+```
+python
+import tensorflow as tf
+tf.__version__
+```
+>1.15.0
 
 # 2. Install OpenPose
 ## 2.1 Download OpenPose(Tensorflow version)
@@ -63,6 +78,21 @@ Original Version more accuracy but large and long execution time:
 ```
 cd tf-pose-estimation/models/graph/cmu
 bash download.sh
+```
+## 2.3 Install Libraries
+```
+cd ../../../
+pip3 install -r requirements.txt
+pip3 install jupyter tqdm
+pip3 install keras==2.3.1
+sudo apt install swig
+```
+
+## 2.4 Compile c++ library
+```bash
+pip3 install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
+cd src/githubs/tf-pose-estimation/tf_pose/pafprocess
+swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 ```
 
 # Reference:
