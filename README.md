@@ -62,25 +62,24 @@ tf.__version__
 ## 2.1 Install dependencies(Tensorflow version)
 ```bash
 cd src/depend/tf-pose-estimation
-
+pip3 install -r requirements.txt
 ```
 ## 2.2 Download Pretrained models(MobileNet-Thin models)
 MobileNet-Thin models has been inside, see folder:
 ```
-src/githubs/tf-pose-estimation/models/graph
+src/depend/tf-pose-estimation/models/graph
 cmu  mobilenet_thin  mobilenet_v2_large  mobilenet_v2_small
 ```
 Choose to download(CMU models)
 
 Original Version more accuracy but large and long execution time:
 ```
-cd tf-pose-estimation/models/graph/cmu
+cd models/graph/cmu
 bash download.sh
 ```
 ## 2.3 Install Libraries
 ```
 cd ../../../
-pip3 install -r requirements.txt
 pip3 install jupyter tqdm
 pip3 install keras==2.3.1
 sudo apt install swig
@@ -92,7 +91,15 @@ pip3 install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&su
 cd src/githubs/tf-pose-estimation/tf_pose/pafprocess
 swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 ```
+## 2.5 final install some library
+```
+cd ../../../
+pip3 install -r requirements.txt
+```
+# NOW TRAINING!
 
 # Reference:
 1. [Chenge Yang, Zhicheng Yu, Feiyu Chen, "Human Pose Estimation Benchmarking and Action Recognition," Deep Learning Project, Winter 2019, Northwestern University, 26-Oct-2019.](https://github.com/ChengeYang/Human-Pose-Estimation-Benchmarking-and-Action-Recognition)
 2. [Feiyu Chen, "Human-Pose-Estimation-Benchmarking-and-Action-Recognition,"Deep Learning Project, Winter 2019, Northwestern University, 26-Oct-2019.](https://github.com/felixchenfy/Realtime-Action-Recognition)
+3. [jiajunhua, "ildoonet-tf-pose-estimation," 10-Apr-2019](https://github.com/jiajunhua/ildoonet-tf-pose-estimation)
+4. [philferriere ,"cocoapi,"25-Oct-2018](https://github.com/philferriere/cocoapi)
