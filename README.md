@@ -37,7 +37,7 @@ bash./{filename.sh}
 ```
 **Completed install Anacconda:**
 
-1. Create new environment:
+Create new environment and activate:
 ```
 conda create -n {env_name} python=3.6.12
 conda activate env_name
