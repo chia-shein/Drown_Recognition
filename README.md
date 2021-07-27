@@ -61,7 +61,8 @@ tf.__version__
 # 2. Install OpenPose
 ## 2.1 Install dependencies(Tensorflow version)
 ```bash
-cd src/depend
+cd src/depend/tf-pose-estimation
+
 ```
 ## 2.2 Download Pretrained models(MobileNet-Thin models)
 MobileNet-Thin models has been inside, see folder:
