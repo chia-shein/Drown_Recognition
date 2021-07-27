@@ -59,12 +59,9 @@ tf.__version__
 >1.15.0
 
 # 2. Install OpenPose
-## 2.1 Download OpenPose(Tensorflow version)
+## 2.1 Install dependencies(Tensorflow version)
 ```bash
-cd src
-mkdir githubs
-cd githubs
-git clone https://github.com/
+cd src/depend
 ```
 ## 2.2 Download Pretrained models(MobileNet-Thin models)
 MobileNet-Thin models has been inside, see folder:
