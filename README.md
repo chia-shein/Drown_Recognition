@@ -32,7 +32,7 @@ Make sure already install Anaconda.
 
 **if not:**
 
-1. Download the {}.sh file. [here](https://www.anaconda.com/products/individual)
+1. Download the {  }.sh file. [here](https://www.anaconda.com/products/individual)
 2. Install Anaconda: 
 ```bash
 bash ./{filename.sh}
@@ -106,7 +106,7 @@ python src/s5_test.py \
     --data_path data_test/exercise.avi \
     --output_folder output
 ```
-# NOW TRAINING!
+# 3. NOW TRAINING!
 
 # Reference:
 1. [Chenge Yang, Zhicheng Yu, Feiyu Chen, "Human Pose Estimation Benchmarking and Action Recognition," Deep Learning Project, Winter 2019, Northwestern University, 26-Oct-2019.](https://github.com/ChengeYang/Human-Pose-Estimation-Benchmarking-and-Action-Recognition)
