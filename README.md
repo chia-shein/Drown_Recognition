@@ -93,7 +93,7 @@ sudo apt install swig
 ## 2.4 Compile c++ library
 ```bash
 pip3 install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
-cd src/depend/tf-pose-estimation/tf_pose/pafprocess
+cd src/depends/tf-pose-estimation/tf_pose/pafprocess
 swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 ```
 ## 2.5 final install some library
