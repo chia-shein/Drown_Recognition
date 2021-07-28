@@ -1,5 +1,5 @@
 # OpenPose_Drown
-Only for national Chin-Yi University of technology
+Only for National Chin-Yi University of technology
 
 # 1. Prepare
 ## 1.1 Check the environment
