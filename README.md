@@ -2,6 +2,9 @@
 Only for National Chin-Yi University of technology
 
 # 1. Prepare
+Make sure clone all the file inside this github page.\
+Some importance data、model、video put inside the [GoogleDrive](https://drive.google.com/drive/folders/1LpkQqHllmBfhozYpiUWEP-tihkzgzDVC?usp=sharing).\
+Put all the files inside the same path of the directories.
 ## 1.1 Check the environment
 **Devices**:
 1. Ubuntu 16.04 LTS
