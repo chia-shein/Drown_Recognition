@@ -72,7 +72,7 @@ pip3 install -r requirements.txt
 ## 2.2 Download Pretrained models(MobileNet-Thin models)
 MobileNet-Thin models has been inside, see folder:
 ```
-src/depend/tf-pose-estimation/models/graph
+src/depends/tf-pose-estimation/models/graph
 cmu  mobilenet_thin  mobilenet_v2_large  mobilenet_v2_small
 ```
 Choose to download(CMU models)
