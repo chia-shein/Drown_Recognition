@@ -110,7 +110,6 @@ python src/s5_test.py \
     --output_folder output
 ```
 # 3. NOW TRAINING!
-## 3.1 
 
 # Reference:
 1. [Chenge Yang, Zhicheng Yu, Feiyu Chen, "Human Pose Estimation Benchmarking and Action Recognition," Deep Learning Project, Winter 2019, Northwestern University, 26-Oct-2019.](https://github.com/ChengeYang/Human-Pose-Estimation-Benchmarking-and-Action-Recognition)
