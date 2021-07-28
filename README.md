@@ -111,6 +111,13 @@ python src/s5_test.py \
     --data_path data_test/exercise.avi \
     --output_folder output
 ```
+**if error occurred!
+```
+cd src/depends/tf-pose-estimation
+python setup.py install
+```
+>Then try Final check again.
+
 # 3. NOW TRAINING!
 
 # Reference:
