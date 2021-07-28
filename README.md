@@ -110,9 +110,12 @@ python src/s5_test.py \
     --output_folder output
 ```
 # 3. NOW TRAINING!
+## 3.1 
 
 # Reference:
 1. [Chenge Yang, Zhicheng Yu, Feiyu Chen, "Human Pose Estimation Benchmarking and Action Recognition," Deep Learning Project, Winter 2019, Northwestern University, 26-Oct-2019.](https://github.com/ChengeYang/Human-Pose-Estimation-Benchmarking-and-Action-Recognition)
 2. [Feiyu Chen, "Human-Pose-Estimation-Benchmarking-and-Action-Recognition,"Deep Learning Project, Winter 2019, Northwestern University, 26-Oct-2019.](https://github.com/felixchenfy/Realtime-Action-Recognition)
 3. [jiajunhua, "ildoonet-tf-pose-estimation," 10-Apr-2019](https://github.com/jiajunhua/ildoonet-tf-pose-estimation)
 4. [philferriere ,"cocoapi,"25-Oct-2018](https://github.com/philferriere/cocoapi)
+5. [橘白卯咪,"欸你在幹嘛?跟一眼瞬間就懂你的行為辨識技術初次見面," 01-Sep-2020](https://ithelp.ithome.com.tw/users/20129150/ironman/2969)
+6. [Zhe Cao, Gines Hidalgo, Tomas Simon, Shih-En Wei, Yaser Sheikh,"OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields,"Computer Vision and Pattern Recognition,18-Dec-2018](https://arxiv.org/abs/1812.08008)
