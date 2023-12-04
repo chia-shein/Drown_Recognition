@@ -1,6 +1,5 @@
 # OpenPose_Drown
-Only for [National Chin-Yi University of technology](https://www.ncut.edu.tw/)\
-\
+
 ![](https://github.com/chia-shein/Drown_GIF/blob/main/%E5%81%B4%E8%BA%AB%2000_00_00-00_00_30.gif)
 ![](https://github.com/chia-shein/Drown_GIF/blob/main/%E6%AD%A3%E9%9D%A2%2000_00_00-00_00_30.gif)
 # 1. Prepare
